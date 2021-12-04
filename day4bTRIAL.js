@@ -112,4 +112,4 @@ function playBingo() {
 
 playBingo();
 
-console.log(winners.slice(-1)[0].draw * winners.slice(-3)[0].sumUnmarked);
+console.log(winners.slice(-1)[0].draw * winners.slice(-1)[0].sumUnmarked);
